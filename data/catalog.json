@@ -13,6 +13,7 @@
       "placeId": 105767799784652,
       "universeId": 10494847029,
       "url": "https://www.roblox.com/games/105767799784652",
+      "icon": "assets/icons/105767799784652.png",
       "blurb": "自动清扫/任务辅助，省掉重复跑图。",
       "features": [
         "主功能",
@@ -30,6 +31,7 @@
       "placeId": 96179204081384,
       "universeId": 10667860714,
       "url": "https://www.roblox.com/games/96179204081384",
+      "icon": "assets/icons/96179204081384.png",
       "blurb": "修炼挂机、任务与资源循环一键开。",
       "features": [
         "自动",
@@ -50,6 +52,7 @@
       "placeId": 132239307080610,
       "universeId": 10526853622,
       "url": "https://www.roblox.com/games/132239307080610",
+      "icon": "assets/icons/132239307080610.png",
       "blurb": "自动钓鱼、卖鱼、目标鱼种锁定。",
       "features": [
         "鱼",
@@ -70,6 +73,7 @@
       "placeId": 94217045453265,
       "universeId": 9051406594,
       "url": "https://www.roblox.com/games/94217045453265",
+      "icon": "assets/icons/94217045453265.png",
       "blurb": "决斗场对局辅助与回大厅快捷操作。",
       "features": [
         "主功能",
@@ -84,6 +88,7 @@
       "placeId": 85776757589518,
       "universeId": 9931749389,
       "url": "https://www.roblox.com/games/85776757589518",
+      "icon": "assets/icons/85776757589518.png",
       "blurb": "地牢推进、战斗与拾取自动化。",
       "features": [
         "自动",
@@ -102,6 +107,7 @@
       "placeId": 132285059959516,
       "universeId": 9656201728,
       "url": "https://www.roblox.com/games/132285059959516",
+      "icon": "assets/icons/132285059959516.png",
       "blurb": "战斗 / 活动BOSS / 无尽 / 移动 / 视觉全套。",
       "features": [
         "战斗",
@@ -122,6 +128,7 @@
       "placeId": 75317862071711,
       "universeId": 9584946743,
       "url": "https://www.roblox.com/games/75317862071711",
+      "icon": "assets/icons/75317862071711.png",
       "blurb": "递增玩法一键动作与传送。",
       "features": [
         "主功能",
@@ -139,6 +146,7 @@
       "placeId": 131716211654599,
       "universeId": 5750914919,
       "url": "https://www.roblox.com/games/131716211654599",
+      "icon": "assets/icons/131716211654599.png",
       "blurb": "鱼饵、购买、出售与钓鱼循环。",
       "features": [
         "鱼",
@@ -158,6 +166,7 @@
       "placeId": 128736949265057,
       "universeId": 9199655655,
       "url": "https://www.roblox.com/games/128736949265057",
+      "icon": "assets/icons/128736949265057.png",
       "blurb": "学乱日常与玩家相关辅助。",
       "features": [
         "动作",
@@ -178,6 +187,7 @@
       "placeId": 118635363908336,
       "universeId": 6215986499,
       "url": "https://www.roblox.com/games/118635363908336",
+      "icon": "assets/icons/118635363908336.png",
       "blurb": "任务、岛屿、矿场、NPC 与传送全家桶。",
       "features": [
         "生活",
@@ -198,6 +208,7 @@
       "placeId": 94939256104840,
       "universeId": 10338952197,
       "url": "https://www.roblox.com/games/94939256104840",
+      "icon": "assets/icons/94939256104840.png",
       "blurb": "养鸡战斗循环与资源整理。",
       "features": [
         "重生",
@@ -212,6 +223,7 @@
       "placeId": 98502499119821,
       "universeId": 8342498724,
       "url": "https://www.roblox.com/games/98502499119821",
+      "icon": "assets/icons/98502499119821.png",
       "blurb": "鱼竿、全卖、任务、岛屿与天气渔场。",
       "features": [
         "自动钓鱼",
@@ -232,6 +244,7 @@
       "placeId": 108307565942574,
       "universeId": 10153098880,
       "url": "https://www.roblox.com/games/108307565942574",
+      "icon": "assets/icons/108307565942574.png",
       "blurb": "抽卡 / 英雄养成相关自动化。",
       "features": [
         "自动",
@@ -252,6 +265,7 @@
       "placeId": 117533937949084,
       "universeId": 9910245722,
       "url": "https://www.roblox.com/games/117533937949084",
+      "icon": "assets/icons/117533937949084.png",
       "blurb": "地牢推进与战斗辅助。",
       "features": [
         "大厅",
@@ -272,6 +286,7 @@
       "placeId": 128451689942376,
       "universeId": 6760085372,
       "url": "https://www.roblox.com/games/128451689942376",
+      "icon": "assets/icons/128451689942376.png",
       "blurb": "任务读取与瞬移到目标怪。",
       "features": [
         "任务",
@@ -289,6 +304,7 @@
       "placeId": 85024203742894,
       "universeId": 9641502068,
       "url": "https://www.roblox.com/games/85024203742894",
+      "icon": "assets/icons/85024203742894.png",
       "blurb": "快速模式刀战辅助。",
       "features": [
         "战斗",
@@ -303,6 +319,7 @@
       "placeId": 85967844112283,
       "universeId": null,
       "url": "https://www.roblox.com/games/85967844112283",
+      "icon": "assets/icons/85967844112283.png",
       "blurb": "关卡推进辅助（早期版本）。",
       "features": [
         "关卡推进辅助（早期版本）。"
@@ -316,6 +333,7 @@
       "placeId": 129619503633658,
       "universeId": 9971332199,
       "url": "https://www.roblox.com/games/129619503633658",
+      "icon": "assets/icons/129619503633658.png",
       "blurb": "光环抽卡与挂机相关。",
       "features": [
         "主要",
@@ -333,6 +351,7 @@
       "placeId": 136406881576517,
       "universeId": 5595353122,
       "url": "https://www.roblox.com/games/136406881576517",
+      "icon": "assets/icons/136406881576517.png",
       "blurb": "任务、训练、传送与战斗辅助。",
       "features": [
         "任务",
@@ -353,6 +372,7 @@
       "placeId": 113099333239841,
       "universeId": 10524813259,
       "url": "https://www.roblox.com/games/113099333239841",
+      "icon": "assets/icons/113099333239841.png",
       "blurb": "占位与传送类 RNG 辅助。",
       "features": [
         "主功能",
@@ -371,6 +391,7 @@
       "placeId": 124216119978534,
       "universeId": 10035204815,
       "url": "https://www.roblox.com/games/124216119978534",
+      "icon": "assets/icons/124216119978534.png",
       "blurb": "雷达蛋、孵化、农场与宠物出售。",
       "features": [
         "蛋",
@@ -391,6 +412,7 @@
       "placeId": 109329896664198,
       "universeId": 10504918958,
       "url": "https://www.roblox.com/games/109329896664198",
+      "icon": "assets/icons/109329896664198.png",
       "blurb": "私学日常与成长辅助。",
       "features": [
         "生活",
@@ -406,6 +428,7 @@
       "placeId": 119259569670784,
       "universeId": 9534705677,
       "url": "https://www.roblox.com/games/119259569670784",
+      "icon": "assets/icons/119259569670784.png",
       "blurb": "狙击竞技场战斗与视觉辅助。",
       "features": [
         "暴力",
@@ -419,8 +442,8 @@
       ]
     }
   ],
-    "usersRemote": [
-      "data/users.enc",
-      "https://gitee.com/CheckCheat/the-king-hub/raw/master/dist/users.enc"
-    ]
+  "usersRemote": [
+    "data/users.enc",
+    "https://gitee.com/CheckCheat/the-king-hub/raw/master/dist/users.enc"
+  ]
 }

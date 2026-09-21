@@ -83,28 +83,6 @@
     requestAnimationFrame(frame);
   }
 
-  function iconUrl(placeId) {
-    return "https://www.roblox.com/asset-thumbnail/image?assetId=" + placeId + "&width=150&height=150&format=png";
-  }
-
-  function fillIcons(games) {
-    var ids = games.map(function (g) { return g.placeId; }).filter(Boolean);
-    if (!ids.length) return;
-    var url = "https://thumbnails.roblox.com/v1/places/gameicons?placeIds=" +
-      ids.join(",") + "&returnPolicy=PlaceHolder&size=150x150&format=Png&isCircular=false";
-    fetch(url).then(function (r) { return r.json(); }).then(function (data) {
-      var map = {};
-      (data.data || []).forEach(function (row) {
-        if (row.targetId && row.imageUrl) map[row.targetId] = row.imageUrl;
-      });
-      cardsHost.querySelectorAll(".card").forEach(function (card) {
-        var pid = Number(card.getAttribute("data-place"));
-        var img = card.querySelector(".icon");
-        if (map[pid]) img.src = map[pid];
-      });
-    }).catch(function () {});
-  }
-
   function renderGames(games) {
     cardsHost.textContent = "";
     games.forEach(function (g, idx) {
@@ -115,8 +93,13 @@
       node.querySelector(".ver").textContent = "v" + g.version;
       node.querySelector(".blurb").textContent = g.blurb || "";
       var img = node.querySelector(".icon");
-      img.alt = g.cn;
-      if (g.placeId) img.src = iconUrl(g.placeId);
+      img.alt = "";
+      if (g.icon) {
+        img.src = g.icon;
+      } else {
+        img.removeAttribute("src");
+        img.classList.add("missing");
+      }
       var feats = node.querySelector(".feats");
       (g.features || []).forEach(function (f) {
         var li = document.createElement("li");
@@ -142,7 +125,6 @@
         node.classList.add("in");
       }, reduce ? 0 : Math.min(idx, 12) * 35);
     });
-    fillIcons(games);
   }
 
   function hidePayload(msg, kind) {
