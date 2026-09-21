@@ -1,0 +1,426 @@
+{
+  "brand": "theKing Hub",
+  "author": "theKing",
+  "qq": "416946520",
+  "userCount": 23,
+  "loaderVersion": "0.9.8",
+  "games": [
+    {
+      "id": "clean-the-world",
+      "cn": "清洁世界",
+      "en": "Clean the WORLD!",
+      "version": "0.5.0",
+      "placeId": 105767799784652,
+      "universeId": 10494847029,
+      "url": "https://www.roblox.com/games/105767799784652",
+      "blurb": "自动清扫/任务辅助，省掉重复跑图。",
+      "features": [
+        "主功能",
+        "技能树",
+        "花钱",
+        "自动清扫",
+        "自动升级技能"
+      ]
+    },
+    {
+      "id": "cultivation-evermortal",
+      "cn": "修炼：永恒不朽",
+      "en": "Cultivation: Evermortal",
+      "version": "0.3.0",
+      "placeId": 96179204081384,
+      "universeId": 10667860714,
+      "url": "https://www.roblox.com/games/96179204081384",
+      "blurb": "修炼挂机、任务与资源循环一键开。",
+      "features": [
+        "自动",
+        "传送",
+        "自动冥想",
+        "自动克服困难",
+        "自动磨练肉体",
+        "自动升级技巧",
+        "自动滚动天赋",
+        "装备最佳天赋"
+      ]
+    },
+    {
+      "id": "deepwater-fishing",
+      "cn": "深水捕鱼",
+      "en": "Deepwater Fishing",
+      "version": "0.1.2",
+      "placeId": 132239307080610,
+      "universeId": 10526853622,
+      "url": "https://www.roblox.com/games/132239307080610",
+      "blurb": "自动钓鱼、卖鱼、目标鱼种锁定。",
+      "features": [
+        "鱼",
+        "自动钓鱼",
+        "自动升级力量",
+        "自动升级重量",
+        "自动升级弹跳",
+        "自动升级容量",
+        "自动购买更好的钓鱼竿",
+        "自动出售"
+      ]
+    },
+    {
+      "id": "dg-reserved-duel",
+      "cn": "决斗场",
+      "en": "Reserved Duel",
+      "version": "0.1.0",
+      "placeId": 94217045453265,
+      "universeId": 9051406594,
+      "url": "https://www.roblox.com/games/94217045453265",
+      "blurb": "决斗场对局辅助与回大厅快捷操作。",
+      "features": [
+        "主功能",
+        "传送"
+      ]
+    },
+    {
+      "id": "dungeon-quest-reborn",
+      "cn": "地牢任务重生",
+      "en": "Dungeon Quest Reborn",
+      "version": "0.1.0",
+      "placeId": 85776757589518,
+      "universeId": 9931749389,
+      "url": "https://www.roblox.com/games/85776757589518",
+      "blurb": "地牢推进、战斗与拾取自动化。",
+      "features": [
+        "自动",
+        "自动开始",
+        "自动普攻",
+        "自动技能 Q",
+        "自动技能 E",
+        "贴身站位"
+      ]
+    },
+    {
+      "id": "dungeon-raiders",
+      "cn": "地下城战利品者",
+      "en": "Dungeon Raiders",
+      "version": "1.4.5",
+      "placeId": 132285059959516,
+      "universeId": 9656201728,
+      "url": "https://www.roblox.com/games/132285059959516",
+      "blurb": "战斗 / 活动BOSS / 无尽 / 移动 / 视觉全套。",
+      "features": [
+        "战斗",
+        "活动BOSS",
+        "无尽模式",
+        "移动",
+        "视觉",
+        "快捷键",
+        "刷新列表",
+        "添加跑路点"
+      ]
+    },
+    {
+      "id": "eternal-increment",
+      "cn": "永恒递增",
+      "en": "Eternal Increment",
+      "version": "0.1.0",
+      "placeId": 75317862071711,
+      "universeId": 9584946743,
+      "url": "https://www.roblox.com/games/75317862071711",
+      "blurb": "递增玩法一键动作与传送。",
+      "features": [
+        "主功能",
+        "传送",
+        "自动买气升级",
+        "传送到所选",
+        "模式"
+      ]
+    },
+    {
+      "id": "fisch",
+      "cn": "鱼",
+      "en": "Fisch",
+      "version": "0.1.2",
+      "placeId": 131716211654599,
+      "universeId": 5750914919,
+      "url": "https://www.roblox.com/games/131716211654599",
+      "blurb": "鱼饵、购买、出售与钓鱼循环。",
+      "features": [
+        "鱼",
+        "自动钓鱼",
+        "刷新鱼饵列表",
+        "一键购买",
+        "一键出售",
+        "装备鱼饵",
+        "购买鱼饵数量"
+      ]
+    },
+    {
+      "id": "gakuran",
+      "cn": "学乱",
+      "en": "Gakuran",
+      "version": "0.0.1",
+      "placeId": 128736949265057,
+      "universeId": 9199655655,
+      "url": "https://www.roblox.com/games/128736949265057",
+      "blurb": "学乱日常与玩家相关辅助。",
+      "features": [
+        "动作",
+        "战斗",
+        "祖国人 · 变身",
+        "刷新玩家列表",
+        "替身使者 · 启动跟随",
+        "大陀螺",
+        "倒走",
+        "快攻"
+      ]
+    },
+    {
+      "id": "grand-blue",
+      "cn": "大蓝色",
+      "en": "Grand Blue",
+      "version": "0.10.17",
+      "placeId": 118635363908336,
+      "universeId": 6215986499,
+      "url": "https://www.roblox.com/games/118635363908336",
+      "blurb": "任务、岛屿、矿场、NPC 与传送全家桶。",
+      "features": [
+        "生活",
+        "战斗",
+        "传送",
+        "通知",
+        "快捷键",
+        "自动采矿",
+        "自动挖掘",
+        "自动钓鱼"
+      ]
+    },
+    {
+      "id": "grow-a-chicken-fighter",
+      "cn": "养鸡斗士",
+      "en": "Grow a Chicken Fighter",
+      "version": "0.2.0",
+      "placeId": 94939256104840,
+      "universeId": 10338952197,
+      "url": "https://www.roblox.com/games/94939256104840",
+      "blurb": "养鸡战斗循环与资源整理。",
+      "features": [
+        "重生",
+        "自动爬塔"
+      ]
+    },
+    {
+      "id": "heavy-fishing",
+      "cn": "重型钓鱼",
+      "en": "Heavy Fishing",
+      "version": "1.2.8",
+      "placeId": 98502499119821,
+      "universeId": 8342498724,
+      "url": "https://www.roblox.com/games/98502499119821",
+      "blurb": "鱼竿、全卖、任务、岛屿与天气渔场。",
+      "features": [
+        "自动钓鱼",
+        "背包管理",
+        "库存管理",
+        "快捷传送",
+        "快捷键",
+        "玩家",
+        "自动蓄力",
+        "智能回正"
+      ]
+    },
+    {
+      "id": "heroes-rng",
+      "cn": "英雄随机",
+      "en": "Heroes RNG",
+      "version": "1.0.0",
+      "placeId": 108307565942574,
+      "universeId": 10153098880,
+      "url": "https://www.roblox.com/games/108307565942574",
+      "blurb": "抽卡 / 英雄养成相关自动化。",
+      "features": [
+        "自动",
+        "防",
+        "性能",
+        "传送",
+        "静默点击",
+        "低血量优先",
+        "高价值优先",
+        "击杀切换"
+      ]
+    },
+    {
+      "id": "iron-soul",
+      "cn": "钢铁灵魂",
+      "en": "Iron Soul",
+      "version": "0.3.1",
+      "placeId": 117533937949084,
+      "universeId": 9910245722,
+      "url": "https://www.roblox.com/games/117533937949084",
+      "blurb": "地牢推进与战斗辅助。",
+      "features": [
+        "大厅",
+        "地牢",
+        "炼狱模式",
+        "自动进入副本",
+        "自动锻造",
+        "杀戮光环",
+        "终极技能",
+        "自动寻路"
+      ]
+    },
+    {
+      "id": "jujutsu-zero",
+      "cn": "咒术：零",
+      "en": "Jujutsu: Zero",
+      "version": "0.1.0",
+      "placeId": 128451689942376,
+      "universeId": 6760085372,
+      "url": "https://www.roblox.com/games/128451689942376",
+      "blurb": "任务读取与瞬移到目标怪。",
+      "features": [
+        "任务",
+        "自动刷怪任务",
+        "读当前任务",
+        "瞬移到任务怪身前",
+        "贴身距离"
+      ]
+    },
+    {
+      "id": "knife-fight-fast",
+      "cn": "刀战：快速模式",
+      "en": "Knife Fight Fast",
+      "version": "0.1.1",
+      "placeId": 85024203742894,
+      "universeId": 9641502068,
+      "url": "https://www.roblox.com/games/85024203742894",
+      "blurb": "快速模式刀战辅助。",
+      "features": [
+        "战斗",
+        "自动扳机"
+      ]
+    },
+    {
+      "id": "last-stop",
+      "cn": "最后一站",
+      "en": "Last Stop",
+      "version": "0.0.1",
+      "placeId": 85967844112283,
+      "universeId": null,
+      "url": "https://www.roblox.com/games/85967844112283",
+      "blurb": "关卡推进辅助（早期版本）。",
+      "features": [
+        "关卡推进辅助（早期版本）。"
+      ]
+    },
+    {
+      "id": "project-aura-rng",
+      "cn": "项目光环",
+      "en": "Project Aura RNG",
+      "version": "0.2.0",
+      "placeId": 129619503633658,
+      "universeId": 9971332199,
+      "url": "https://www.roblox.com/games/129619503633658",
+      "blurb": "光环抽卡与挂机相关。",
+      "features": [
+        "主要",
+        "传送",
+        "自动领取索引",
+        "自动装备最佳",
+        "自动升级"
+      ]
+    },
+    {
+      "id": "project-slayers-2",
+      "cn": "斩击者 2",
+      "en": "Slayers 2",
+      "version": "0.8.4",
+      "placeId": 136406881576517,
+      "universeId": 5595353122,
+      "url": "https://www.roblox.com/games/136406881576517",
+      "blurb": "任务、训练、传送与战斗辅助。",
+      "features": [
+        "任务",
+        "任务-鬼杀队",
+        "任务-鬼",
+        "任务-Boss",
+        "任务-材料",
+        "任务-训练",
+        "传送",
+        "购买"
+      ]
+    },
+    {
+      "id": "re-head-please-rng",
+      "cn": "RE:头，拜托了！",
+      "en": "RE: Head Please",
+      "version": "0.1.0",
+      "placeId": 113099333239841,
+      "universeId": 10524813259,
+      "url": "https://www.roblox.com/games/113099333239841",
+      "blurb": "占位与传送类 RNG 辅助。",
+      "features": [
+        "主功能",
+        "传送",
+        "自动占位",
+        "一键占位",
+        "传送到所选",
+        "选择地点"
+      ]
+    },
+    {
+      "id": "ride-pets",
+      "cn": "骑宠物",
+      "en": "Ride Pets",
+      "version": "0.1.5",
+      "placeId": 124216119978534,
+      "universeId": 10035204815,
+      "url": "https://www.roblox.com/games/124216119978534",
+      "blurb": "雷达蛋、孵化、农场与宠物出售。",
+      "features": [
+        "蛋",
+        "农场",
+        "出售",
+        "自动雷达蛋",
+        "自动稀有蛋",
+        "单次雷达蛋",
+        "单次稀有蛋",
+        "回自己农场"
+      ]
+    },
+    {
+      "id": "shigaku",
+      "cn": "私学",
+      "en": "Shigaku",
+      "version": "0.2.0",
+      "placeId": 109329896664198,
+      "universeId": 10504918958,
+      "url": "https://www.roblox.com/games/109329896664198",
+      "blurb": "私学日常与成长辅助。",
+      "features": [
+        "生活",
+        "自动锻炼",
+        "反挂机"
+      ]
+    },
+    {
+      "id": "sniper-arena",
+      "cn": "狙击竞技场",
+      "en": "Sniper Arena",
+      "version": "0.5.0",
+      "placeId": 119259569670784,
+      "universeId": 9534705677,
+      "url": "https://www.roblox.com/games/119259569670784",
+      "blurb": "狙击竞技场战斗与视觉辅助。",
+      "features": [
+        "暴力",
+        "换肤",
+        "静默瞄准",
+        "可视化",
+        "范围绘制",
+        "队伍检测",
+        "自动扳机",
+        "换枪声"
+      ]
+    }
+  ],
+    "usersRemote": [
+      "data/users.enc",
+      "https://gitee.com/CheckCheat/the-king-hub/raw/master/dist/users.enc"
+    ]
+}
