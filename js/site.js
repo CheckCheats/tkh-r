@@ -9,14 +9,6 @@
   var userCountEl = document.getElementById("user-count");
   var gameCountEl = document.getElementById("game-count");
   var injectCountEl = document.getElementById("inject-count");
-  var nameInput = document.getElementById("roblox-name");
-  var checkBtn = document.getElementById("check");
-  var hint = document.getElementById("gate-hint");
-  var payload = document.getElementById("payload");
-  var code = document.getElementById("code");
-  var copyBtn = document.getElementById("copy");
-  var catalog = null;
-  var unlockedLine = null;
   var introDone = false;
 
   function arm() {
@@ -133,87 +125,6 @@
     });
   }
 
-  function hidePayload(msg, kind) {
-    unlockedLine = null;
-    payload.hidden = true;
-    code.textContent = "";
-    hint.textContent = msg || "加载行默认隐藏。";
-    hint.className = "hint" + (kind ? " " + kind : "");
-  }
-
-  function showPayload(line) {
-    unlockedLine = line;
-    payload.hidden = false;
-    code.textContent = line;
-    hint.textContent = "校验通过，可复制执行。";
-    hint.className = "hint ok";
-  }
-
-  function markCopied() {
-    copyBtn.textContent = "已复制";
-    window.setTimeout(function () {
-      copyBtn.textContent = copyBtn.getAttribute("data-label") || "复制";
-    }, 1400);
-  }
-
-  function fallbackCopy(text) {
-    var area = document.createElement("textarea");
-    area.value = text;
-    area.setAttribute("readonly", "");
-    area.style.position = "fixed";
-    area.style.left = "-999px";
-    document.body.appendChild(area);
-    area.select();
-    var ok = false;
-    try { ok = document.execCommand("copy"); } catch (err) { ok = false; }
-    document.body.removeChild(area);
-    return ok;
-  }
-
-  checkBtn.addEventListener("click", function () {
-    if (!window.__TK || !catalog) return;
-    var name = nameInput.value;
-    checkBtn.disabled = true;
-    hint.textContent = "正在读取白名单…";
-    hint.className = "hint";
-    window.__TK.unlock(name, catalog.usersRemote).then(function (res) {
-      checkBtn.disabled = false;
-      if (res.count) countTo(userCountEl, res.count);
-      if (!res.ok) {
-        var map = {
-          empty: "请先输入 Roblox 用户名。",
-          deny: "不在白名单，加载行继续隐藏。",
-          expired: "账号已到期，请联系作者续约。",
-          bad: "名单格式异常。"
-        };
-        hidePayload(map[res.reason] || "校验失败。", "bad");
-        return;
-      }
-      showPayload(res.line);
-    }).catch(function () {
-      checkBtn.disabled = false;
-      hidePayload("白名单拉取失败，稍后再试。", "bad");
-    });
-  });
-
-  nameInput.addEventListener("keydown", function (e) {
-    if (e.key === "Enter") checkBtn.click();
-  });
-
-  copyBtn.addEventListener("click", function () {
-    if (!unlockedLine) return;
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(unlockedLine).then(markCopied, function () {
-        if (fallbackCopy(unlockedLine)) markCopied();
-      });
-      return;
-    }
-    if (fallbackCopy(unlockedLine)) markCopied();
-  });
-
-  // hard hide: never leave line in DOM before unlock
-  hidePayload();
-
   function loadInjectCount(meta) {
     var url = (meta && meta.get) || "https://abacus.jasoncameron.dev/get/thekinghub/scriptinjects";
     fetch(url, { cache: "no-store" })
@@ -231,16 +142,10 @@
   fetch("data/catalog.json", { cache: "no-store" })
     .then(function (r) { return r.json(); })
     .then(function (data) {
-      catalog = data;
       countTo(gameCountEl, (data.games || []).length);
       countTo(userCountEl, data.userCount || 0);
       renderGames(data.games || []);
       loadInjectCount(data.injects);
-      if (window.__TK && data.usersRemote) {
-        window.__TK.peekCount(data.usersRemote).then(function (n) {
-          if (n) countTo(userCountEl, n);
-        }).catch(function () {});
-      }
     })
     .catch(function () {
       stage.textContent = "清单加载失败";

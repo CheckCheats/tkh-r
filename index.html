@@ -32,7 +32,6 @@
     <nav class="top-nav" aria-label="页内">
       <a href="#stats">数据</a>
       <a href="#roster">游戏</a>
-      <a href="#gate">授权</a>
     </nav>
     <span class="top-ver">Hub</span>
   </header>
@@ -78,35 +77,6 @@
       </div>
       <div class="cards" id="cards"></div>
     </section>
-
-    <section class="gate" id="gate">
-      <div class="gate-copy">
-        <p class="kicker">Access</p>
-        <h2>授权打开</h2>
-        <ol class="steps">
-          <li><span>01</span><p>输入你的 Roblox 用户名。</p></li>
-          <li><span>02</span><p>校验 Gitee 白名单（加密名单）。</p></li>
-          <li><span>03</span><p>通过后才显示加载行；未授权一律不展示。</p></li>
-        </ol>
-      </div>
-      <div class="slab">
-        <label class="field" for="roblox-name">
-          <span>Roblox 用户名</span>
-          <input id="roblox-name" type="text" autocomplete="username" spellcheck="false" placeholder="例如 PlayerName" maxlength="32">
-        </label>
-        <div class="slab-actions">
-          <button type="button" id="check" data-label="校验白名单">校验白名单</button>
-          <p class="hint" id="gate-hint" aria-live="polite">加载行默认隐藏。</p>
-        </div>
-        <div class="payload" id="payload" hidden>
-          <div class="slab-bar">
-            <span>theKing Loader Lua</span>
-            <button type="button" id="copy" data-label="复制">复制</button>
-          </div>
-          <pre id="code" tabindex="0"></pre>
-        </div>
-      </div>
-    </section>
   </main>
 
   <footer class="foot">
@@ -117,7 +87,7 @@
         <span>作者 theKing · QQ 416946520</span>
       </div>
     </div>
-    <span class="foot-note">白名单账号，进游戏后打开面板。</span>
+    <span class="foot-note">进游戏后打开面板。</span>
   </footer>
 
   <template id="card-tpl">
@@ -138,7 +108,6 @@
     </article>
   </template>
 
-  <script src="js/gate.js"></script>
   <script src="js/site.js"></script>
 </body>
 </html>

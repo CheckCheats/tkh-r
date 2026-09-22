@@ -3,7 +3,6 @@
   "author": "theKing",
   "qq": "416946520",
   "userCount": 23,
-  "loaderVersion": "0.9.9",
   "games": [
     {
       "id": "clean-the-world",
@@ -464,10 +463,6 @@
       ],
       "status": "ok"
     }
-  ],
-  "usersRemote": [
-    "data/users.enc",
-    "https://gitee.com/CheckCheat/the-king-hub/raw/master/dist/users.enc"
   ],
   "injects": {
     "since": "2026-09-22",
