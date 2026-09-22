@@ -8,6 +8,7 @@
   var tpl = document.getElementById("card-tpl");
   var userCountEl = document.getElementById("user-count");
   var gameCountEl = document.getElementById("game-count");
+  var injectCountEl = document.getElementById("inject-count");
   var loaderVer = document.getElementById("loader-ver");
   var nameInput = document.getElementById("roblox-name");
   var checkBtn = document.getElementById("check");
@@ -215,6 +216,20 @@
   // hard hide: never leave line in DOM before unlock
   hidePayload();
 
+  function loadInjectCount(meta) {
+    var url = (meta && meta.get) || "https://abacus.jasoncameron.dev/get/thekinghub/scriptinjects";
+    fetch(url, { cache: "no-store" })
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        var n = Number(data && data.value);
+        if (!isFinite(n) || n < 0) throw new Error("bad");
+        countTo(injectCountEl, n);
+      })
+      .catch(function () {
+        if (injectCountEl) injectCountEl.textContent = "--";
+      });
+  }
+
   fetch("data/catalog.json", { cache: "no-store" })
     .then(function (r) { return r.json(); })
     .then(function (data) {
@@ -223,6 +238,7 @@
       countTo(gameCountEl, (data.games || []).length);
       countTo(userCountEl, data.userCount || 0);
       renderGames(data.games || []);
+      loadInjectCount(data.injects);
       if (window.__TK && data.usersRemote) {
         window.__TK.peekCount(data.usersRemote).then(function (n) {
           if (n) countTo(userCountEl, n);

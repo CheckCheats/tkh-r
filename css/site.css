@@ -290,7 +290,7 @@ body.armed .down {
 
 .stats {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 1.35fr;
   gap: 14px;
   padding: 8px 0 24px;
 }
@@ -301,6 +301,20 @@ body.armed .down {
   border-radius: 18px;
   padding: 22px 20px;
   min-height: 132px;
+}
+
+.stats article.injects {
+  background:
+    radial-gradient(ellipse 80% 70% at 90% 10%, rgba(255, 208, 70, 0.12), transparent 55%),
+    var(--panel);
+  border-color: rgba(255, 208, 70, 0.22);
+}
+
+.since {
+  margin: 10px 0 0;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
 }
 
 .kicker {

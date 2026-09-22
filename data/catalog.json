@@ -3,7 +3,7 @@
   "author": "theKing",
   "qq": "416946520",
   "userCount": 23,
-  "loaderVersion": "0.9.8",
+  "loaderVersion": "0.9.9",
   "games": [
     {
       "id": "clean-the-world",
@@ -468,5 +468,11 @@
   "usersRemote": [
     "data/users.enc",
     "https://gitee.com/CheckCheat/the-king-hub/raw/master/dist/users.enc"
-  ]
+  ],
+  "injects": {
+    "since": "2026-09-22",
+    "label": "自 2026.9.22 起",
+    "get": "https://abacus.jasoncameron.dev/get/thekinghub/scriptinjects",
+    "hit": "https://abacus.jasoncameron.dev/hit/thekinghub/scriptinjects"
+  }
 }
