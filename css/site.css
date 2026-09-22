@@ -257,7 +257,7 @@ body.armed .author {
   transition: opacity 0.5s linear 0.8s;
 }
 
-.down {
+.scroll-cue {
   position: absolute;
   bottom: 36px;
   display: flex;
@@ -269,12 +269,12 @@ body.armed .author {
   letter-spacing: 0.16em;
   opacity: 0;
 }
-body.armed .down {
+body.armed .scroll-cue {
   opacity: 1;
   transition: opacity 0.6s var(--ease) 1s, color 160ms var(--ease);
 }
-.down:hover { color: var(--cream); }
-.down i {
+.scroll-cue:hover { color: var(--cream); }
+.scroll-cue i {
   width: 1px;
   height: 28px;
   background: linear-gradient(#fff, transparent);
@@ -581,8 +581,8 @@ body.armed .down {
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .glow, .orbit, .down i { animation: none; }
-  .logo, .word, .stage, .author, .top, .down, .card {
+  .glow, .orbit, .scroll-cue i { animation: none; }
+  .logo, .word, .stage, .author, .top, .scroll-cue, .card {
     opacity: 1;
     transform: none;
     transition: none;
