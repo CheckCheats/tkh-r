@@ -9,7 +9,6 @@
   var userCountEl = document.getElementById("user-count");
   var gameCountEl = document.getElementById("game-count");
   var injectCountEl = document.getElementById("inject-count");
-  var loaderVer = document.getElementById("loader-ver");
   var nameInput = document.getElementById("roblox-name");
   var checkBtn = document.getElementById("check");
   var hint = document.getElementById("gate-hint");
@@ -91,7 +90,6 @@
       node.setAttribute("data-place", g.placeId || "");
       node.querySelector(".cn").textContent = g.cn;
       node.querySelector(".en").textContent = g.en;
-      node.querySelector(".ver").textContent = "v" + g.version;
       var st = (g.status || "ok").toLowerCase();
       if (st !== "ok" && st !== "warn" && st !== "down") st = "ok";
       var statusEl = node.querySelector(".status");
@@ -234,7 +232,6 @@
     .then(function (r) { return r.json(); })
     .then(function (data) {
       catalog = data;
-      loaderVer.textContent = "Loader " + (data.loaderVersion || "");
       countTo(gameCountEl, (data.games || []).length);
       countTo(userCountEl, data.userCount || 0);
       renderGames(data.games || []);

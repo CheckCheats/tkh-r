@@ -445,12 +445,6 @@ body.armed .down {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.ver {
-  flex: none;
-  font-variant-numeric: tabular-nums;
-  font-size: 13px;
-  color: var(--stroke);
-}
 .status {
   flex: none;
   width: 10px;
