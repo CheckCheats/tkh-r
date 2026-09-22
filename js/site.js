@@ -91,6 +91,13 @@
       node.querySelector(".cn").textContent = g.cn;
       node.querySelector(".en").textContent = g.en;
       node.querySelector(".ver").textContent = "v" + g.version;
+      var st = (g.status || "ok").toLowerCase();
+      if (st !== "ok" && st !== "warn" && st !== "down") st = "ok";
+      var statusEl = node.querySelector(".status");
+      var statusLabel = { ok: "可用", warn: "警告", down: "不可用" }[st];
+      statusEl.className = "status " + st;
+      statusEl.title = statusLabel;
+      statusEl.setAttribute("aria-label", statusLabel);
       node.querySelector(".blurb").textContent = g.blurb || "";
       var img = node.querySelector(".icon");
       img.alt = "";
