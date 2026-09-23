@@ -85,7 +85,7 @@
       var st = (g.status || "ok").toLowerCase();
       if (st !== "ok" && st !== "warn" && st !== "down") st = "ok";
       var statusEl = node.querySelector(".status");
-      var statusLabel = { ok: "可用", warn: "警告", down: "不可用" }[st];
+      var statusLabel = { ok: "可用", warn: "重点", down: "不可用" }[st];
       statusEl.className = "status " + st;
       statusEl.title = statusLabel;
       statusEl.setAttribute("aria-label", statusLabel);
