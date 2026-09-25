@@ -93,22 +93,6 @@
       "status": "ok"
     },
     {
-      "id": "dg-reserved-duel",
-      "cn": "决斗场",
-      "en": "Reserved Duel",
-      "version": "0.1.0",
-      "placeId": 94217045453265,
-      "universeId": 9051406594,
-      "url": "https://www.roblox.com/games/94217045453265",
-      "icon": "assets/icons/94217045453265.png",
-      "blurb": "决斗场对局辅助与回大厅快捷操作。",
-      "features": [
-        "主功能",
-        "传送"
-      ],
-      "status": "ok"
-    },
-    {
       "id": "dungeon-quest-reborn",
       "cn": "地牢任务重生",
       "en": "Dungeon Quest Reborn",
@@ -386,28 +370,6 @@
       "status": "ok"
     },
     {
-      "id": "project-slayers-2",
-      "cn": "斩击者 2",
-      "en": "Slayers 2",
-      "version": "0.10.6",
-      "placeId": 136406881576517,
-      "universeId": 5595353122,
-      "url": "https://www.roblox.com/games/136406881576517",
-      "icon": "assets/icons/136406881576517.png",
-      "blurb": "任务、训练、传送与战斗辅助。",
-      "features": [
-        "任务",
-        "任务-鬼杀队",
-        "任务-鬼",
-        "任务-Boss",
-        "任务-材料",
-        "任务-训练",
-        "传送",
-        "购买"
-      ],
-      "status": "ok"
-    },
-    {
       "id": "re-head-please-rng",
       "cn": "RE:头，拜托了！",
       "en": "RE: Head Please",
@@ -424,6 +386,22 @@
         "一键占位",
         "传送到所选",
         "选择地点"
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "dg-reserved-duel",
+      "cn": "决斗场",
+      "en": "Reserved Duel",
+      "version": "0.1.0",
+      "placeId": 94217045453265,
+      "universeId": 9051406594,
+      "url": "https://www.roblox.com/games/94217045453265",
+      "icon": "assets/icons/94217045453265.png",
+      "blurb": "决斗场对局辅助与回大厅快捷操作。",
+      "features": [
+        "主功能",
+        "传送"
       ],
       "status": "ok"
     },
@@ -450,6 +428,34 @@
       "status": "ok"
     },
     {
+      "id": "sell-lemons",
+      "cn": "出售柠檬",
+      "en": "Sell Lemons",
+      "version": "0.1.4",
+      "placeId": 79268393072444,
+      "universeId": 7395930870,
+      "url": "https://www.roblox.com/games/79268393072444",
+      "icon": "assets/icons/79268393072444.png",
+      "blurb": "柠檬摊位八档自动点击/升级，手机报价一键接，设施自动解锁。",
+      "features": [
+        "点击列表",
+        "自动点击",
+        "升级列表",
+        "自动升级",
+        "自动手机",
+        "解锁设施",
+        "柠檬架",
+        "柠檬冲刺",
+        "柠檬仓库",
+        "柠檬交易",
+        "柠檬实验室",
+        "柠檬机器人",
+        "柠檬共和国",
+        "柠檬X"
+      ],
+      "status": "ok"
+    },
+    {
       "id": "shigaku",
       "cn": "私学",
       "en": "Shigaku",
@@ -463,6 +469,28 @@
         "生活",
         "自动锻炼",
         "反挂机"
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "project-slayers-2",
+      "cn": "斩击者 2",
+      "en": "Slayers 2",
+      "version": "0.10.6",
+      "placeId": 136406881576517,
+      "universeId": 5595353122,
+      "url": "https://www.roblox.com/games/136406881576517",
+      "icon": "assets/icons/136406881576517.png",
+      "blurb": "任务、训练、传送与战斗辅助。",
+      "features": [
+        "任务",
+        "任务-鬼杀队",
+        "任务-鬼",
+        "任务-Boss",
+        "任务-材料",
+        "任务-训练",
+        "传送",
+        "购买"
       ],
       "status": "ok"
     },
